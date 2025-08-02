@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class DirectoryManager {
+public class DirectoryManagerSystem {
     private static Scanner scanner = new Scanner(System.in);
     private static File currentDir = new File(System.getProperty("user.dir"));
 
@@ -133,3 +133,4 @@ public class DirectoryManager {
         }
     }
 }
+
